@@ -24,9 +24,18 @@ pip install -r requirements.txt
 
 * Training
 ```
-python Train_TEAR.py --gpu=0 --dataset=isic2018 --n-classes=7 --backbone=alexnet --n-labeled=350 --batchsize=128 --thr=0.95 --n-epoches=256 --setting=ISIC_350
+python Train_TEAR.py 
+    --gpu=0 
+    --dataset=isic2018 
+    --n-classes=7 
+    --backbone=alexnet 
+    --n-labeled=350 
+    --batchsize=128 
+    --thr=0.95 
+    --n-epoches=256 
+    --setting=ISIC_350
 ```
 
 ## Acknowledge
-* The implementation is based on the repo: [CoMatch](https://github.com/salesforce/CoMatch)
+* The implementation of baseline method is based on: [CoMatch](https://github.com/salesforce/CoMatch)
 
