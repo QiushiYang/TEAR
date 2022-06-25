@@ -1,0 +1,4 @@
+MedPy==0.4.0
+mpi4py==3.0.2
+scipy==1.5.4
+SimpleITK==2.0.2
