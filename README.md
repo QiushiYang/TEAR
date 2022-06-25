@@ -23,7 +23,7 @@ pip install -r requirements.txt
 ## Quickstart
 
 * Training
-```
+```python
 python Train_TEAR.py 
     --gpu=0 
     --dataset=isic2018 
