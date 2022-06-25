@@ -14,7 +14,9 @@ All experiments use the PyTorch library. We recommend installing the following p
 
 * &nbsp;&nbsp; pytorch=1.6.0
 
-* &nbsp;&nbsp; torchvision=0.7.0
+* &nbsp;&nbsp; MedPy==0.4.0
+
+* &nbsp;&nbsp; scipy==1.5.4
 
 Dependency packages can be installed using following command:
 ```
@@ -31,6 +33,7 @@ python Train_TEAR.py
     --n-classes=7 
     --backbone=alexnet 
     --n-labeled=350 
+    --adapl=True
     --batchsize=128 
     --thr=0.95 
     --n-epoches=256 
