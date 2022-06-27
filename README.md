@@ -8,11 +8,11 @@ This repository is an official PyTorch implementation of the paper "Semi-Supervi
 We propose TEmporal knowledge-Aware Regularization (TEAR) for semi-supervised medical image classification. Instead of using hard pseudo labels to train models roughly, we design Adaptive Pseudo Labeling (AdaPL), a mild learning strategy that relaxes hard pseudo labels to soft-form ones and provides a cautious training. AdaPL is built on a novel theoretically derived loss estimator, which approximates the loss of unlabeled samples according to the temporal information across training iterations, to adaptively relax pseudo labels. To release the excessive dependency of biased pseudo labels, we take advantage of the temporal knowledge and propose Iterative Prototype Harmonizing (IPH) to encourage the model to learn discriminative representations in an unsupervised manner. The core principle of IPH is to maintain the harmonization of clustered prototypes across different iteration.
 
 ## Dependencies
-All experiments use the PyTorch library. We recommend installing the following package versions:
+All experiments use PyTorch library. We recommend installing following package versions:
 
-* &nbsp;&nbsp; python=3.7 
+* &nbsp;&nbsp; python==3.7 
 
-* &nbsp;&nbsp; pytorch=1.6.0
+* &nbsp;&nbsp; pytorch==1.6.0
 
 * &nbsp;&nbsp; MedPy==0.4.0
 
