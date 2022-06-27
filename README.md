@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ## Quickstart
 
-* Training
+### Training
 ```python
 python Train_TEAR.py 
     --gpu=0 
@@ -39,6 +39,12 @@ python Train_TEAR.py
     --n-epoches=256 
     --setting=ISIC_350
 ```
+
+## Bonus
+### Application on natural images
+
+The strategy AdaPL can also bring performance improvements on many natural image datasets, including CIFAR-10, CIFAR-100, SVHN, etc, especially in low label regimes. To have a try, you simply have to add the dataloaders in ```./datasets/cifar.py```, and turn on the switch of AdaPL: ```--adapl=True```. Enjoy playing on your own datasets :-D
+
 
 ## Acknowledge
 * The implementation of baseline method is based on: [CoMatch](https://github.com/salesforce/CoMatch)
