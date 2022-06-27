@@ -55,6 +55,6 @@ The strategy AdaPL can also bring performance improvements on many natural image
 }
 ```
 
-## Acknowledge
+## Acknowledgement
 * The implementation of baseline method is based on: [CoMatch](https://github.com/salesforce/CoMatch)
 
